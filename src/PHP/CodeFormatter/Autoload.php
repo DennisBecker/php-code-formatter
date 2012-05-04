@@ -7,8 +7,8 @@ spl_autoload_register(
         static $classes = null;
         if ($classes === null) {
             $classes = array(
-                'php\\codeformatter\\decorator\\decoractorinterface' => '/Decorator/DecoractorInterface.php',
                 'php\\codeformatter\\decorator\\decoratorexception' => '/Decorator/DecoratorException.php',
+                'php\\codeformatter\\decorator\\decoratorinterface' => '/Decorator/DecoratorInterface.php',
                 'php\\codeformatter\\decorator\\indentation' => '/Decorator/Indentation.php',
                 'php\\codeformatter\\decorator\\newlineafter' => '/Decorator/NewLineAfter.php',
                 'php\\codeformatter\\decorator\\newlinebefore' => '/Decorator/NewLineBefore.php',
