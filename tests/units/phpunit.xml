@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit colors="true" backupGlobals="false" strict="true"
+	bootstrap="Bootstrap.php">
+
+	<testsuite name="Code Formatter">
+		<directory>.</directory>
+	</testsuite>
+</phpunit>
